@@ -1,0 +1,37 @@
+{
+  /*
+    It is highly recommended that you make a copy of this file before running the script!
+    Once you run the script with a given file, these comments will disappear since to the
+    file will be saved with the poolId encoded in it. The pool generation script can handle
+    reading json files with comments in them, but it cannot recreate them.
+    */
+
+  // Network and Gas Settings
+  "network": "aurora",
+  "gasSpeed": "average", // this can be {slow, average, fast}
+  "gasPriceOverride": "", // setting this to any number will override the gasSpeed
+
+  // Pool Name & Token Symbol
+  "name": "Polaris DEX Orbital Wrapped-BTC",
+  "symbol": "pDEX-Orbital-wBTC",
+
+  // Pool Configuration
+  "poolType": "WeightedPool",
+  "swapFeePercent": "0.3",
+  "fromInternalBalance": false,
+  "owner": "0xBA1BA1ba1BA1bA1bA1Ba1BA1ba1BA1bA1ba1ba1B",
+  "tokens": {
+    "0x8c9e6c40d3402480ace624730524facc5482798c": { 
+      "weight": "0.5",
+      "initialBalance": "1",
+      "rateProvider": "0x0000000000000000000000000000000000000000",
+      "allowance": 1e18
+    },
+    "0xdfcea9088c8a88a76ff74892c1457c17dfeef9c1": {
+      "weight": "0.5",
+      "initialBalance": "4",
+      "rateProvider": "0x0000000000000000000000000000000000000000",
+      "allowance": 4e18
+    }
+  }
+}

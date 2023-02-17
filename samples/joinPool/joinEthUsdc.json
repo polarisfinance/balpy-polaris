@@ -1,0 +1,17 @@
+{
+    "network": "aurora",
+    "poolId": "0x9cd44e44e8a61bc7dc34b04c762a3c0137a3707c000200000000000000000002",
+    "fromInternalBalance": false,
+    "joinKind": "INIT",
+    "slippageTolerancePercent": "1.0", //irrelevant for init join, retained for consistency 
+    "tokens": {
+        "0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB": {
+            "amount": "0.0044",
+            "allowance": "1e18"
+        },
+        "0xB12BFcA5A55806AaF64E99521918A4bf0fC40802": {
+            "amount": "5",
+            "allowance": "5e18"
+        }
+    }
+}

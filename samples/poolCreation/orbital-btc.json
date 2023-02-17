@@ -1,0 +1,25 @@
+{
+    "network": "aurora",
+    "gasSpeed": "average",
+    "gasPriceOverride": "",
+    "name": "Polaris DEX Orbital Wrapped-BTC",
+    "symbol": "pDEX-Orbital-wBTC",
+    "poolType": "WeightedPool2Tokens",
+    "swapFeePercent": "3.0",
+    "fromInternalBalance": false,
+    "oracleEnabled": true,
+    "owner": "0xBA1BA1ba1BA1bA1bA1Ba1BA1ba1BA1bA1ba1ba1B",
+    "tokens": {
+        "0x3AC55eA8D2082fAbda674270cD2367dA96092889": {
+            "weight": "0.5",
+            "initialBalance": "0.001",
+            "allowance": "1e18"
+        },
+        "0xF4eB217Ba2454613b15dBdea6e5f22276410e89e": {
+            "weight": "0.5",
+            "initialBalance": "0.001",
+            "allowance": "1e18"
+        }
+    },
+    "poolId": "a215a58225b344cbb62fcf762e8e884dbedfbe58000200000000000000000006"
+}

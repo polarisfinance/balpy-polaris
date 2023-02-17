@@ -1,0 +1,23 @@
+{
+    "network": "aurora",
+    "gasSpeed": "average",
+    "gasPriceOverride": "",
+    "name": "Polaris DEX USDC USDT.e",
+    "symbol": "pDEX-USDC-USDT.e",
+    "poolType": "StablePool",
+    "swapFeePercent": "0.3",
+    "fromInternalBalance": false,
+    "amplificationParameter": "1390",
+    "owner": "0xBA1BA1ba1BA1bA1bA1Ba1BA1ba1BA1bA1ba1ba1B",
+    "tokens": {
+        "0xB12BFcA5A55806AaF64E99521918A4bf0fC40802": {
+            "initialBalance": "10",
+            "allowance": 1e+19
+        },
+        "0x4988a896b1227218e4A686fdE5EabdcAbd91571f": {
+            "initialBalance": "10",
+            "allowance": 1e+19
+        }
+    },
+    "poolId": "ceecce984f498ee00832670e9ca6d372f6ce155a000200000000000000000014"
+}

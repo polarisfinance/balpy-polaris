@@ -1,0 +1,25 @@
+{
+    "network": "aurora",
+    "gasSpeed": "average",
+    "gasPriceOverride": "",
+    "name": "Polaris DEX Binaris abBNB",
+    "symbol": "pDEX-Binaris-abBNB",
+    "poolType": "WeightedPool2Tokens",
+    "swapFeePercent": "3.0",
+    "fromInternalBalance": false,
+    "oracleEnabled": true,
+    "owner": "0xBA1BA1ba1BA1bA1bA1Ba1BA1ba1BA1bA1ba1ba1B",
+    "tokens": {
+        "0xafE0d6ca6AAbB43CDA024895D203120831Ba0370": {
+            "weight": "0.5",
+            "initialBalance": "0.027",
+            "allowance": "1e18"
+        },
+        "0xb14674C7264eC7d948B904Aab2c0E0F906F6e762": {
+            "weight": "0.5",
+            "initialBalance": "0.027",
+            "allowance": "1e18"
+        }
+    },
+    "poolId": "f0b6cf745afe642c4565165922ad62d6a93857c100020000000000000000000e"
+}

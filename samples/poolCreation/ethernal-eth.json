@@ -1,0 +1,25 @@
+{
+    "network": "aurora",
+    "gasSpeed": "average",
+    "gasPriceOverride": "",
+    "name": "Polaris DEX Ethernal Wrapped-ETH",
+    "symbol": "pDEX-Ethernal-wETH",
+    "poolType": "WeightedPool2Tokens",
+    "swapFeePercent": "3.0",
+    "fromInternalBalance": false,
+    "oracleEnabled": true,
+    "owner": "0xBA1BA1ba1BA1bA1bA1Ba1BA1ba1BA1bA1ba1ba1B",
+    "tokens": {
+        "0x17cbd9C274e90C537790C51b4015a65cD015497e": {
+            "weight": "0.5",
+            "initialBalance": "0.005",
+            "allowance": "1e18"
+        },
+        "0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB": {
+            "weight": "0.5",
+            "initialBalance": "0.005",
+            "allowance": "1e18"
+        }
+    },
+    "poolId": "293bbbef6087f681a8110f08bbdedadd13599fc3000200000000000000000007"
+}
